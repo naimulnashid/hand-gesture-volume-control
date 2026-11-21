@@ -1,0 +1,6 @@
+# Tested 2026-11-22 on Python 3.11 (Windows).
+opencv-python
+mediapipe==0.10.21  # the mp.solutions API used here was removed in 0.10.30
+numpy
+pycaw==20240210     # newer releases changed AudioUtilities.GetSpeakers()
+comtypes
