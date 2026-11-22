@@ -6,7 +6,7 @@ This repository is a project showcase, not a maintained library.
 
 ## Demo
 
-[![Demo video: pinching the thumb and index finger in front of the webcam raises and lowers the Windows volume](https://img.youtube.com/vi/MM66486e3pc/hqdefault.jpg)](https://youtu.be/MM66486e3pc)
+<a href="https://youtu.be/MM66486e3pc"><img src="https://img.youtube.com/vi/MM66486e3pc/maxresdefault.jpg" width="100%" alt="Demo video: pinching the thumb and index finger in front of the webcam raises and lowers the Windows volume"></a>
 
 [Watch the demo on YouTube](https://youtu.be/MM66486e3pc). [`VolumeControlByHandGesture.py`](VolumeControlByHandGesture.py) shows the camera feed with the hand skeleton, the thumb and index tips joined by a line, and the frame rate.
 
