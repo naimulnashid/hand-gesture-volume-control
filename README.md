@@ -4,6 +4,8 @@ Controls the Windows master volume with a pinch: the webcam tracks your hand wit
 
 This repository is a project showcase, not a maintained library.
 
+![Visual abstract: a webcam frame goes to MediaPipe Hands, which finds 21 hand landmarks; the pixel distance between the thumb tip (4) and index fingertip (8) is mapped linearly from 30 to 250 px onto the sound card's decibel range and set as the Windows master volume through pycaw](assets/visual-abstract.png)
+
 ## Demo
 
 <a href="https://youtu.be/MM66486e3pc"><img src="https://img.youtube.com/vi/MM66486e3pc/maxresdefault.jpg" width="100%" alt="Demo video: pinching the thumb and index finger in front of the webcam raises and lowers the Windows volume"></a>
