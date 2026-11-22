@@ -1,12 +1,14 @@
 # Hand-Gesture Volume Control with OpenCV and MediaPipe
 
-Controls the Windows master volume with a pinch: the webcam tracks your hand with MediaPipe, and the distance between your thumb tip and index fingertip sets the volume. Self-study project, July 2024, following Murtaza Hassan's (Murtaza's Workshop) hand-tracking tutorial.
+Controls the Windows master volume with a pinch: the webcam tracks your hand with MediaPipe, and the distance between your thumb tip and index fingertip sets the volume. Self-study project, April 2024, following Murtaza Hassan's (Murtaza's Workshop) hand-tracking tutorial.
 
 This repository is a project showcase, not a maintained library.
 
 ## Demo
 
-No recording yet: the demo needs a webcam and a live hand. Running [`VolumeControlByHandGesture.py`](VolumeControlByHandGesture.py) shows the camera feed with the hand skeleton, the thumb and index tips joined by a line, and the frame rate.
+[![Demo video: pinching the thumb and index finger in front of the webcam raises and lowers the Windows volume](https://img.youtube.com/vi/MM66486e3pc/hqdefault.jpg)](https://youtu.be/MM66486e3pc)
+
+[Watch the demo on YouTube](https://youtu.be/MM66486e3pc). [`VolumeControlByHandGesture.py`](VolumeControlByHandGesture.py) shows the camera feed with the hand skeleton, the thumb and index tips joined by a line, and the frame rate.
 
 ## Features
 
